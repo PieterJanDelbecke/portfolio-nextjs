@@ -9,7 +9,9 @@ export default function Home() {
         <meta name="description" content="created by PJD" />
         <link tel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>
+        <section className="min-h-screen"></section>
+      </main>
     </div>
   );
 }
