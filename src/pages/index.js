@@ -10,7 +10,19 @@ export default function Home() {
         <link tel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="min-h-screen"></section>
+        <section className="min-h-screen">
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1>develepedbypjd</h1>
+            <ul>
+              <li>
+                <BsFillMoonStarsFill />
+              </li>
+              <li>
+                <a href="#">Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
       </main>
     </div>
   );
