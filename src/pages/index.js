@@ -32,15 +32,17 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
-            <h2>Pieter-Jan Delbecke</h2>
-            <h3>Developer and designer.</h3>
-            <p>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Pieter-Jan Delbecke
+            </h2>
+            <h3 className="text-2xl py-2">Developer and designer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
               Freelancer providing services for programming and design content
               needs. Join me down below and lets get ckracking!
             </p>
           </div>
-          <div>
+          <div className="text-5xl flex justify-center gap-16">
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillYoutube />
