@@ -53,9 +53,16 @@ export default function Home() {
             <Image src={deved} alt="image" layout="fill" objectFit="cover" />
           </div>
         </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Services I offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Since the beginning of my journey as a freelance design developer,
+              I've done remote work for
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );
 }
-
-// todo
