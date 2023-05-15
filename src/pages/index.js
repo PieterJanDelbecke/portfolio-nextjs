@@ -7,6 +7,9 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../../public/dev-ed-wave.png";
+import design from "../../public/design.png";
+import code from "../../public/code.png";
+import consulting from "../../public/consulting.png";
 
 export default function Home() {
   return (
@@ -64,6 +67,15 @@ export default function Home() {
               collaborated with the talented peaople to create digital products
               for both business and consumer use.
             </p>
+            <p>
+              I offer form a wide range of services, including branding, design,
+              programming and teaching
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={design} alt="design" width={100} height={100} />.
+            </div>
           </div>
         </section>
       </main>
