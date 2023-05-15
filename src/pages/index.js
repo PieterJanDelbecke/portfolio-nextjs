@@ -59,6 +59,10 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance design developer,
               I've done remote work for
+              <span className="text-teal-500"> agencies </span> consulted for
+              <span className="text-teal-500"> start-ups </span> and
+              collaborated with the talented peaople to create digital products
+              for both business and consumer use.
             </p>
           </div>
         </section>
