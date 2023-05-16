@@ -146,6 +146,10 @@ export default function Home() {
               collaborated with the talented peaople to create digital products
               for both business and consumer use.
             </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              I offer from a wide range of services, including branding, design,
+              programming and teaching
+            </p>
           </div>
         </section>
       </main>
